@@ -1,4 +1,4 @@
-resource "google_storage_bucket" "auto-expire" {
+resource "google_storage_bucket" "my-buckette" {
   name          = "terraformtest-bucket"
   project       = "test-cicd-421815"
   location      = "US"
